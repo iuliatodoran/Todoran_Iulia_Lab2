@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿@page "/"
+=======
+﻿@page
+>>>>>>> 4c50c10bd6f2a7a756e89f8e06de59bfddd73a35
 @model Todoran_Iulia_Lab2.Pages.Books.IndexModel
 
 @{
@@ -28,9 +32,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Book[0].Publisher.PublisherName)
             </th>
+<<<<<<< HEAD
             <th>Title</th>
             <th>Author</th>
             <th></th>
+=======
+>>>>>>> 4c50c10bd6f2a7a756e89f8e06de59bfddd73a35
             <th></th>
         </tr>
     </thead>
@@ -52,8 +59,11 @@
             <td>
                  @Html.DisplayFor(modelItem => item.Publisher.PublisherName)
             </td>
+<<<<<<< HEAD
             <td>@item.Title</td>
             <td>@item.Author.FirstName @item.Author.LastName</td>
+=======
+>>>>>>> 4c50c10bd6f2a7a756e89f8e06de59bfddd73a35
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
